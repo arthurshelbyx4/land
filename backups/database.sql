@@ -1,4 +1,4 @@
--- Backup generated 2026-07-07 00:00:49
+-- Backup generated 2026-07-07 06:00:49
 SET FOREIGN_KEY_CHECKS=0;
 
 DROP TABLE IF EXISTS `add_remove_balance`;
@@ -1141,7 +1141,7 @@ CREATE TABLE `ldtax_data` (
   `total_in_words` text DEFAULT NULL,
   PRIMARY KEY (`id`),
   UNIQUE KEY `token` (`token`)
-) ENGINE=InnoDB AUTO_INCREMENT=31 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=32 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 INSERT INTO `ldtax_data` VALUES ('1',NULL,'10056345634563','53453','423','123','32323','24554','24554','24554','32','23','15','পৌষ','1414','{\"1\":{\"name\":\"\\u09ae\\u09cb\\u0983 \\u09ac\\u099b\\u09b0 \\u0989\\u09a6\\u09cd\\u09a6\\u09bf\\u09a8 \\u09ab\\u0995\\u09bf\\u09b0\",\"share\":\"24554\"},\"2\":{\"name\":\"\\u09ae\\u09cb\\u09b8\\u09be\\u0983 \\u09a8\\u09be\\u099c\\u09ae\\u09be \\u09ac\\u09c7\\u0997\\u09ae\",\"share\":\"\"}}','{\"1\":{\"dag\":\"24554\",\"type\":\"24554\",\"amount\":\"24554\"}}','24554','24554','24554','24554','24554','24554','','','');
 INSERT INTO `ldtax_data` VALUES ('2',NULL,'10056345634563','মোসাঃ নাজমা বেগম','মোসাঃ নাজমা বেগম','মোসাঃ নাজমা বেগম','মোসাঃ নাজমা বেগম','মোসাঃ নাজমা বেগম','মোসাঃ নাজমা বেগম','মোসাঃ নাজমা বেগম','মোসাঃ নাজমা বেগম','মোসাঃ নাজমা বেগম','12','মাঘ','1416','[{\"name\":\"\\u09ae\\u09cb\\u09b8\\u09be\\u0983 \\u09a8\\u09be\\u099c\\u09ae\\u09be \\u09ac\\u09c7\\u0997\\u09ae\",\"share\":\"5146\"}]','[{\"dag\":\"\\u09ae\\u09cb\\u09b8\\u09be\\u0983 \\u09a8\\u09be\\u099c\\u09ae\\u09be \\u09ac\\u09c7\\u0997\\u09ae\",\"type\":\"\\u09ae\\u09cb\\u09b8\\u09be\\u0983 \\u09a8\\u09be\\u099c\\u09ae\\u09be \\u09ac\\u09c7\\u0997\\u09ae\",\"amount\":\"\\u09ae\\u09cb\\u09b8\\u09be\\u0983 \\u09a8\\u09be\\u099c\\u09ae\\u09be \\u09ac\\u09c7\\u0997\\u09ae\"}]','মোসাঃ নাজমা বেগম','মোসাঃ নাজমা বেগম','মোসাঃ নাজমা বেগম','মোসাঃ নাজমা বেগম','মোসাঃ নাজমা বেগম','মোসাঃ নাজমা বেগম','','','');
@@ -1172,6 +1172,7 @@ INSERT INTO `ldtax_data` VALUES ('27','260efb535f8fc9d31f9a9ffe94ad2e87','861248
 INSERT INTO `ldtax_data` VALUES ('28','a2932dcbe690fdeb7cb3243bf419127f','703354905547','','ধামরাই ইউনিয়ন ভূমি অফিস','শৈলান-২৩১','ধামরাই','ঢাকা','২০২৬-১০০০৩৬','২০২৬-১০০০৩৬','2025-2026 (অর্থবছর)','২৯ জুন, ২০২৬','15','আষাঢ়','1433','[{\"name\":\"\\u09ae\\u09cb\\u0983 \\u0986\\u09b2\\u09ae \\u09b9\\u09cb\\u09b8\\u09c7\\u09a8\",\"share\":\"\\u09e7\"}]','[{\"dag\":\"\\u09ed\\u09ea\\u09ed\",\"type\":\"\\u09a8\\u09be\\u09b2 (\\u0995\\u09c3\\u09b7\\u09bf)\",\"amount\":\"\\u09e8\\u09e6\"},{\"dag\":\"\\u09ed\\u09ea\\u09ee\",\"type\":\"\\u09a8\\u09be\\u09b2 (\\u0995\\u09c3\\u09b7\\u09bf)\",\"amount\":\"\\u09eb\\u09e7\"},{\"dag\":\"\\u09ed\\u09ea\\u09eb\",\"type\":\"\\u09a8\\u09be\\u09b2 (\\u0995\\u09c3\\u09b7\\u09bf)\",\"amount\":\"\\u09eb\"}]','100','130','90','460','780','780','0','','');
 INSERT INTO `ldtax_data` VALUES ('29','da37ed7cdbd7a25affb7cedcd6788dff','997910540490','','','','','','','','','','','','','[]','[]','','','','','','','','','');
 INSERT INTO `ldtax_data` VALUES ('30','6427883fa1a815c3a58dc7402249360f','255709127230','','','','','','','','','','','','','[]','[]','','','','','','','','','');
+INSERT INTO `ldtax_data` VALUES ('31','727c86fd101c5c4d6a3faa0a7a26ab02','595103278514','','রোয়াইল ইউনিয়ন ভূমি অফিস','ফোর্ড নগর ২য় খন্ড-২৯৯','ধামরাই','ঢাকা','৮৭৯','৮৭৯','2026-2027 (অর্থবছর)','৭ জুলাই, ২০২৬  ','23','আষাঢ়','1433','[{\"name\":\"\\u09ae\\u09cb\\u0983 \\u0986\\u09ac\\u09cd\\u09a6\\u09c1\\u09b0 \\u09b0\\u09b6\\u09bf\\u09a6\",\"share\":\"\\u09e6.\\u09eb\"},{\"name\":\"\\u09ae\\u09cb\\u09b8\\u09be\\u09ae\\u09cd\\u09ae\\u09a6 \\u0995\\u09be\\u09ae\\u09b0\\u09c1\\u09a8\\u09cd\\u09a8\\u09be\\u09b9\\u09be\\u09b0\",\"share\":\"\\u09e6.\\u09eb\"}]','[{\"dag\":\"\\u09e8\\u09ee\\u09e7\",\"type\":\"\\u09a8\\u09be\\u09b2 (\\u0995\\u09c3\\u09b7\\u09bf-\\u09e8)\",\"amount\":\"\\u09e8\\u09e8\\u09ea\"},{\"dag\":\"\\u09e8\\u09e7\\u09ec\",\"type\":\"\\u09ac\\u09cb\\u09b0\\u09cb (\\u0995\\u09c3\\u09b7\\u09bf-\\u09e8)\",\"amount\":\"\\u09ed\\u09ec\"}]','0','0','0','550','550','550','0','','');
 
 DROP TABLE IF EXISTS `logsn`;
 CREATE TABLE `logsn` (
@@ -2488,7 +2489,7 @@ CREATE TABLE `users` (
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=48 DEFAULT CHARSET=utf8mb3 COLLATE=utf8mb3_general_ci;
 
-INSERT INTO `users` VALUES ('15','Irfan','irfan@gmail.com',NULL,'1e61a54ab1469158cad8898b045ec6ec',NULL,'ec9743e4f900b8d7','69800','2025-12-04 08:18:30',NULL,NULL,'+97336452121',NULL,'1');
+INSERT INTO `users` VALUES ('15','Irfan','irfan@gmail.com',NULL,'1e61a54ab1469158cad8898b045ec6ec',NULL,'ec9743e4f900b8d7','69600','2025-12-04 08:18:30',NULL,NULL,'+97336452121',NULL,'1');
 INSERT INTO `users` VALUES ('16','Sunmoon Selim','selimshajada@gmail.com',NULL,'d06eff92b1873abb2d8363ca63eb84ee',NULL,'36f08e597f879266','0','2025-12-06 22:23:00',NULL,NULL,'01868469089',NULL,'1');
 INSERT INTO `users` VALUES ('17','Ratul','ratul55556666@gmail.com',NULL,'6de0105d9fd424b8a286ee7109df4159',NULL,'361ec4bd6e194258','0','2025-12-06 22:25:53',NULL,NULL,'01823586542',NULL,'1');
 INSERT INTO `users` VALUES ('18','MST FARHANA YEASMIN','rana5556666@gmail.com',NULL,'0428cef24f0ca47dc0c90c71aabbe211',NULL,'fb674c1f2e5c3c60','0','2025-12-06 22:53:34',NULL,NULL,'01823586542',NULL,'1');

@@ -1,4 +1,4 @@
--- Backup generated 2026-07-16 06:00:50
+-- Backup generated 2026-07-16 12:00:48
 SET FOREIGN_KEY_CHECKS=0;
 
 DROP TABLE IF EXISTS `add_remove_balance`;
@@ -1143,7 +1143,7 @@ CREATE TABLE `ldtax_data` (
   `total_in_words` text DEFAULT NULL,
   PRIMARY KEY (`id`),
   UNIQUE KEY `token` (`token`)
-) ENGINE=InnoDB AUTO_INCREMENT=42 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=43 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 INSERT INTO `ldtax_data` VALUES ('1',NULL,'10056345634563','53453','423','123','32323','24554','24554','24554','32','23','15','পৌষ','1414','{\"1\":{\"name\":\"\\u09ae\\u09cb\\u0983 \\u09ac\\u099b\\u09b0 \\u0989\\u09a6\\u09cd\\u09a6\\u09bf\\u09a8 \\u09ab\\u0995\\u09bf\\u09b0\",\"share\":\"24554\"},\"2\":{\"name\":\"\\u09ae\\u09cb\\u09b8\\u09be\\u0983 \\u09a8\\u09be\\u099c\\u09ae\\u09be \\u09ac\\u09c7\\u0997\\u09ae\",\"share\":\"\"}}','{\"1\":{\"dag\":\"24554\",\"type\":\"24554\",\"amount\":\"24554\"}}','24554','24554','24554','24554','24554','24554','','','');
 INSERT INTO `ldtax_data` VALUES ('2',NULL,'10056345634563','মোসাঃ নাজমা বেগম','মোসাঃ নাজমা বেগম','মোসাঃ নাজমা বেগম','মোসাঃ নাজমা বেগম','মোসাঃ নাজমা বেগম','মোসাঃ নাজমা বেগম','মোসাঃ নাজমা বেগম','মোসাঃ নাজমা বেগম','মোসাঃ নাজমা বেগম','12','মাঘ','1416','[{\"name\":\"\\u09ae\\u09cb\\u09b8\\u09be\\u0983 \\u09a8\\u09be\\u099c\\u09ae\\u09be \\u09ac\\u09c7\\u0997\\u09ae\",\"share\":\"5146\"}]','[{\"dag\":\"\\u09ae\\u09cb\\u09b8\\u09be\\u0983 \\u09a8\\u09be\\u099c\\u09ae\\u09be \\u09ac\\u09c7\\u0997\\u09ae\",\"type\":\"\\u09ae\\u09cb\\u09b8\\u09be\\u0983 \\u09a8\\u09be\\u099c\\u09ae\\u09be \\u09ac\\u09c7\\u0997\\u09ae\",\"amount\":\"\\u09ae\\u09cb\\u09b8\\u09be\\u0983 \\u09a8\\u09be\\u099c\\u09ae\\u09be \\u09ac\\u09c7\\u0997\\u09ae\"}]','মোসাঃ নাজমা বেগম','মোসাঃ নাজমা বেগম','মোসাঃ নাজমা বেগম','মোসাঃ নাজমা বেগম','মোসাঃ নাজমা বেগম','মোসাঃ নাজমা বেগম','','','');
@@ -1185,6 +1185,7 @@ INSERT INTO `ldtax_data` VALUES ('38','4d9a618897158f2115ea063488bfbf63','611326
 INSERT INTO `ldtax_data` VALUES ('39','66908a7797e8922f4729efc846ed39b2','479021563409','','ধামরাই ইউনিয়ন ভূমি অফিস','কাকরান-২৬৭','ধামরাই','ঢাকা','২৫-১২২৯০৫','২৫-১২২৯০৫','2026-2027 (অর্থবছর)','১৪ জুলাই, ২০২৬','30','আষাঢ়','1433','[{\"name\":\"\\u0993\\u09af\\u09bc\\u09be\\u09b0\\u09c7\\u099c\",\"share\":\"\\u09e7\"}]','[{\"dag\":\"\\u09e7\\u09e7\\u09ed\\u09ea\",\"type\":\"\\u09ac\\u09cb\\u09b0( \\u0995\\u09c3\\u09b7\\u09bf)\",\"amount\":\"\\u09ed\"}]','0','0','0','550','550','550','0','','');
 INSERT INTO `ldtax_data` VALUES ('40','067d9574d39b3bf8a9dcb1594b772572','300336481097','','কুশুরা ইউনিয়ন ভূমি অফিস','গুলাইল-২৩৫','ধামরাই','ঢাকা','৫২','৫২','2026-2027 (অর্থবছর)','১৪ জুলাই, ২০২৬','30','আষাঢ়','1433','[{\"name\":\"\\u09a8\\u0993\\u09af\\u09bc\\u09be\\u09ac \\u0986\\u09b2\\u09c0 \\u09ae\\u09cb\\u09b2\\u09cd\\u09af\\u09be\",\"share\":\"\\u09e6.\\u09ea\"},{\"name\":\"\\u0986\\u09ac\\u09a6\\u09c1\\u09b2 \\u09b9\\u09be\\u09b2\\u09bf\\u09ae\",\"share\":\"\\u09e6.\\u09ea\"},{\"name\":\"\\u0986\\u09ae\\u09bf\\u09b0\\u09a8 \\u09a8\\u09c7\\u099b\\u09be\",\"share\":\"\\u09e6.\\u09e8\"}]','[{\"dag\":\"\\u09e8\\u09eb\\u09eb\",\"type\":\"\\u09a8\\u09be\\u09b2( \\u0995\\u09c3\\u09b7\\u09bf\\u09e8)\",\"amount\":\"\\u09e8\\u09e8\"}]','295','129','176','40','640','640','0','','');
 INSERT INTO `ldtax_data` VALUES ('41','cb0e503e6cc4e12425a8e820bfa9f31f','637625516022','','কুশুরা ইউনিয়ন ভূমি অফিস','জালসা- ১০৩','ধামরাই','ঢাকা','২০২৬-১০০০৫৯','২০২৬-১০০০৫৯','2026-2027 (অর্থবছর)','১৪ জুলাই, ২০২৬  ','30','আষাঢ়','1433','[{\"name\":\"\\u099c\\u09be\\u09b9\\u09be\\u0999\\u09cd\\u0997\\u09c0\\u09b0 \\u0986\\u09b2\\u09ae\",\"share\":\"\\u09e6.\\u09e7\\u09ee\\u09ed\"},{\"name\":\"\\u09b2\\u09c1\\u09ce\\u09ab\\u09b0 \\u09b0\\u09b9\\u09ae\\u09be\\u09a8\",\"share\":\"\\u09e6.\\u09e8\\u09ed\\u09e7\"},{\"name\":\"\\u09ae\\u09cb\\u0983 \\u0986\\u09ae\\u099c\\u09be\\u09a6 \\u09b9\\u09cb\\u09b8\\u09c7\\u09a8\",\"share\":\"\\u09e6.\\u09e8\\u09ed\\u09e7\"},{\"name\":\"\\u09b9\\u09a8\\u09c1\\u09ab\\u09be \\u0986\\u0995\\u09cd\\u09a4\\u09be\\u09b0\",\"share\":\"\\u09e6.\\u09e8\\u09ed\\u09e7\"}]','[{\"dag\":\"\\u09e9\\u09e6\\u09ec\\u09ea\",\"type\":\"\\u09a8\\u09be\\u09b2( \\u0995\\u09c3\\u09b7\\u09bf)\",\"amount\":\"\\u09e8\\u09ea\"}]','550','388','340','620','1898','1898','0','','');
+INSERT INTO `ldtax_data` VALUES ('42','cd999456e9e9ed267bd3dc5b2d2c68fa','889785141873','','ধামরাই ইউনিয়ন ভূমি অফিস','গাওয়াইল-১৮২','ধামরাই','ঢাকা','১৯১৮','২১৭৮','2026-2027 (অর্থবছর)','১৬ জুলাই, ২০২৬','31','আষাঢ়','1433','[{\"name\":\"\\u09b8\\u09c1\\u09b2\\u09c7\\u0996\\u09be\",\"share\":\"\\u09e7\"}]','[{\"dag\":\"\\u09ec\\u09eb\\u09e6\",\"type\":\"\\u09ac\\u09be\\u09a1\\u09bc\\u09c0( \\u0986\\u09ac\\u09be\\u09b8\\u09bf\\u0995)\",\"amount\":\"\\u09e8\\u09eb.\\u09e8\\u09eb\"},{\"dag\":\"\\u09ed\\u09ef\\u09ea\",\"type\":\"\\u09a8\\u09be\\u09b2( \\u0995\\u09c3\\u09b7\\u09bf)\",\"amount\":\"\\u09e7\\u09e7.\\u09eb\\u09e6\"}]','540','322','180','388','1430','1430','0','','');
 
 DROP TABLE IF EXISTS `logsn`;
 CREATE TABLE `logsn` (
@@ -2501,7 +2502,7 @@ CREATE TABLE `users` (
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=48 DEFAULT CHARSET=utf8mb3 COLLATE=utf8mb3_general_ci;
 
-INSERT INTO `users` VALUES ('15','Irfan','irfan@gmail.com',NULL,'1e61a54ab1469158cad8898b045ec6ec',NULL,'ec9743e4f900b8d7','68400','2025-12-04 08:18:30',NULL,NULL,'+97336452121',NULL,'1');
+INSERT INTO `users` VALUES ('15','Irfan','irfan@gmail.com',NULL,'1e61a54ab1469158cad8898b045ec6ec',NULL,'ec9743e4f900b8d7','68200','2025-12-04 08:18:30',NULL,NULL,'+97336452121',NULL,'1');
 INSERT INTO `users` VALUES ('16','Sunmoon Selim','selimshajada@gmail.com',NULL,'d06eff92b1873abb2d8363ca63eb84ee',NULL,'36f08e597f879266','0','2025-12-06 22:23:00',NULL,NULL,'01868469089',NULL,'1');
 INSERT INTO `users` VALUES ('17','Ratul','ratul55556666@gmail.com',NULL,'6de0105d9fd424b8a286ee7109df4159',NULL,'361ec4bd6e194258','0','2025-12-06 22:25:53',NULL,NULL,'01823586542',NULL,'1');
 INSERT INTO `users` VALUES ('18','MST FARHANA YEASMIN','rana5556666@gmail.com',NULL,'0428cef24f0ca47dc0c90c71aabbe211',NULL,'fb674c1f2e5c3c60','0','2025-12-06 22:53:34',NULL,NULL,'01823586542',NULL,'1');
